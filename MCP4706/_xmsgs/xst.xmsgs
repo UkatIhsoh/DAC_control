@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="76" delta="old" >"C:\Users\hoshino\Desktop\SotsuKen\ISE\MCP4706\MCP4706.vhd" Line 54: <arg fmt="%s" index="1">statement</arg> is not synthesizable since it does not hold its value under NOT(clock-edge) condition
+</msg>
+
+</messages>
+
