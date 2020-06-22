@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/hoshino_Data/SotsuKen/ISE/DAC_control/MCP4726_test_isim_beh.exe" -prj "E:/hoshino_Data/SotsuKen/ISE/DAC_control/MCP4726_test_beh.prj" "work.MCP4726_test" 

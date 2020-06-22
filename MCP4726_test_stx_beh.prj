@@ -1,0 +1,2 @@
+vhdl isim_temp "MCP4726_ctrl.vhd"
+vhdl isim_temp "MCP4726_test.vhd"

@@ -1,0 +1,2 @@
+vhdl work "MCP4726_ctrl.vhd"
+vhdl work "MCP4726_test.vhd"

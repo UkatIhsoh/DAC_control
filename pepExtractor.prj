@@ -1,0 +1,2 @@
+work	"MCP4726_ctrl.vhd"
+work	"ipcore_dir/DCMto100k.vhd"

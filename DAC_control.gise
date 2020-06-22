@@ -56,24 +56,97 @@
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="MCP4726_ctrl_summary.xml"/>
     <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="MCP4726_ctrl_usage.xml"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="MCP4726_ctrl_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MCP4726_test_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="MCP4726_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="MCP4726_test_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MCP4726_test_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="ipcore_dir/coregen.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_2"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_3"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_4"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_5"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1592795459" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1592795459">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1592798100" xil_pn:in_ck="1474957318024101113" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1592798100">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="MCP4726_ctrl.vhd"/>
+      <outfile xil_pn:name="MCP4726_test.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1592795654" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-5681665681826550136" xil_pn:start_ts="1592795654">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1592795654" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="5249397210844287750" xil_pn:start_ts="1592795654">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1592795459" xil_pn:in_ck="3600198849505272378" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-6465404695754299237" xil_pn:start_ts="1592795459">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ipcore_dir/DCMto100k.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1592798100" xil_pn:in_ck="7124234178682769995" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1592798100">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="MCP4726_ctrl.vhd"/>
+      <outfile xil_pn:name="MCP4726_test.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/DCMto100k.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1592798104" xil_pn:in_ck="7124234178682769995" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7983992042873775984" xil_pn:start_ts="1592798100">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="MCP4726_test_beh.prj"/>
+      <outfile xil_pn:name="MCP4726_test_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1592798104" xil_pn:in_ck="-7814983514996354367" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="975783628512689469" xil_pn:start_ts="1592798104">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="MCP4726_test_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
     <transform xil_pn:end_ts="1592786992" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1592786992">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -103,14 +176,10 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1592787732" xil_pn:in_ck="3410566246509242025" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="3375264606594594868" xil_pn:start_ts="1592787724">
+    <transform xil_pn:end_ts="1592798671" xil_pn:in_ck="3410566246509242025" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="3375264606594594868" xil_pn:start_ts="1592798660">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="MCP4726_ctrl.lso"/>
       <outfile xil_pn:name="MCP4726_ctrl.ngc"/>
       <outfile xil_pn:name="MCP4726_ctrl.ngr"/>
@@ -130,7 +199,8 @@
     <transform xil_pn:end_ts="1592793848" xil_pn:in_ck="-4590526361691373152" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="704775274873743910" xil_pn:start_ts="1592793839">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="MCP4726_ctrl.bld"/>
       <outfile xil_pn:name="MCP4726_ctrl.ngd"/>
       <outfile xil_pn:name="MCP4726_ctrl_ngdbuild.xrpt"/>
