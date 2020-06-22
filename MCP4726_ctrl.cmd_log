@@ -10,3 +10,8 @@ map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -reg
 par -w -intstyle ise -ol high -mt off MCP4726_ctrl_map.ncd MCP4726_ctrl.ncd MCP4726_ctrl.pcf 
 trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml MCP4726_ctrl.twx MCP4726_ctrl.ncd -o MCP4726_ctrl.twr MCP4726_ctrl.pcf -ucf MCP4726_ctrl.ucf 
 xst -intstyle ise -ifn "E:/hoshino_Data/SotsuKen/ISE/DAC_control/MCP4726_ctrl.xst" -ofn "E:/hoshino_Data/SotsuKen/ISE/DAC_control/MCP4726_ctrl.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc MCP4726_ctrl.ucf -p xc6slx9-tqg144-2 MCP4726_ctrl.ngc MCP4726_ctrl.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MCP4726_ctrl_map.ncd MCP4726_ctrl.ngd MCP4726_ctrl.pcf 
+par -w -intstyle ise -ol high -mt off MCP4726_ctrl_map.ncd MCP4726_ctrl.ncd MCP4726_ctrl.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml MCP4726_ctrl.twx MCP4726_ctrl.ncd -o MCP4726_ctrl.twr MCP4726_ctrl.pcf -ucf MCP4726_ctrl.ucf 
+bitgen -intstyle ise -f MCP4726_ctrl.ut MCP4726_ctrl.ncd 

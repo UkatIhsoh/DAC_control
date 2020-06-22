@@ -5,10 +5,66 @@
 
 INFO: [Common 17-78] Attempting to get a license: PlanAhead
 INFO: [Common 17-290] Got license for PlanAhead
-INFO: [Common 17-86] Your PlanAhead license expires in -419 day(s)
-INFO: [Device 21-36] Loading parts and site information from E:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
-Parsing RTL primitives file [E:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
-Finished parsing RTL primitives file [E:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+INFO: [Common 17-86] Your PlanAhead license expires in -22 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
 start_gui
-source E:/hoshino_Data/SotsuKen/ISE/DAC_control/pa.fromHdl.tcl
-# create_project -name DAC_control -dir "E:/hoshino_Data/SotsuKen/ISE/DAC_control/planAhead_run_1" -part xc6slx9tqg144-2
+source G:/lab/DAC_control/pa.fromHdl.tcl
+# create_project -name DAC_control -dir "G:/lab/DAC_control/planAhead_run_1" -part xc6slx9tqg144-2
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "MCP4726_ctrl.ucf" [current_fileset -constrset]
+Adding file 'G:/lab/DAC_control/MCP4726_ctrl.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {ipcore_dir/DCMto100k.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {MCP4726_ctrl.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top MCP4726_ctrl $srcset
+# add_files [list {MCP4726_ctrl.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx9tqg144-2
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "G:/lab/DAC_control/ipcore_dir/DCMto100k.vhd" into library work
+Parsing VHDL file "G:/lab/DAC_control/MCP4726_ctrl.vhd" into library work
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/tqg144/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [G:/lab/DAC_control/MCP4726_ctrl.ucf]
+Finished Parsing UCF File [G:/lab/DAC_control/MCP4726_ctrl.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 6ce4ab2e
+open_rtl_design: Time (s): elapsed = 00:00:09 . Memory (MB): peak = 635.605 ; gain = 172.219
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P94 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin P47 [get_ports rst]
+endgroup
+startgroup
+set_property package_pin P48 [get_ports scl]
+endgroup
+startgroup
+set_property package_pin P51 [get_ports sda]
+endgroup
+startgroup
+set_property package_pin P50 [get_ports switch]
+endgroup
+startgroup
+set_property package_pin P51 [get_ports sda]
+endgroup
+save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Mon Jun 22 13:14:46 2020...
+INFO: [Common 17-83] Releasing license: PlanAhead

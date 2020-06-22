@@ -11,7 +11,7 @@ Target Device  : xc6slx9
 Target Package : tqg144
 Target Speed   : -2
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : MON 22 JUN 11:44:12 2020
+Mapped Date    : MON 22 JUN 13:14:58 2020
 
 Design Summary
 --------------
@@ -27,7 +27,8 @@ Slice Logic Distribution:
   Number of LUT Flip Flop pairs used:            0
 
 IO Utilization:
-  Number of bonded IOBs:                         2 out of     102    1%
+  Number of bonded IOBs:                         4 out of     102    3%
+    Number of LOCed IOBs:                        4 out of       4  100%
 
 Specific Feature Utilization:
   Number of RAMB16BWERs:                         0 out of      32    0%
@@ -52,8 +53,10 @@ Specific Feature Utilization:
   Number of STARTUPs:                            0 out of       1    0%
   Number of SUSPEND_SYNCs:                       0 out of       1    0%
 
-Peak Memory Usage:  4493 MB
-Total REAL time to MAP completion:  7 secs 
+Average Fanout of Non-Clock Nets:                0.00
+
+Peak Memory Usage:  4533 MB
+Total REAL time to MAP completion:  6 secs 
 Total CPU time to MAP completion:   4 secs 
 
 Table of Contents
@@ -82,10 +85,10 @@ WARNING:MapLib:701 - Signal clk connected to top level port clk has been
 
 Section 3 - Informational
 -------------------------
-INFO:LIT:243 - Logical network rst has no load.
+INFO:LIT:243 - Logical network rst_IBUF has no load.
 INFO:LIT:395 - The above info message is repeated 1 more times for the following
    (max. 5 shown):
-   switch
+   switch_IBUF
    To see the details of these info messages, please use the -detail switch.
 INFO:MapLib:562 - No environment variables are currently set.
 INFO:LIT:244 - All of the single ended outputs in this design are using slew
@@ -101,9 +104,9 @@ INFO:Pack:1650 - Map created a placed design.
 
 Section 4 - Removed Logic Summary
 ---------------------------------
-   6 block(s) removed
-   1 block(s) optimized away
-   6 signal(s) removed
+   5 block(s) removed
+   2 block(s) optimized away
+   5 signal(s) removed
 
 Section 5 - Removed Logic
 -------------------------
@@ -128,8 +131,6 @@ The trimmed logic reported below is either:
 
 The signal "clk" is unused and has been removed.
  Unused block "clk" (PAD) removed.
-The signal "N1" is unused and has been removed.
- Unused block "XST_GND" (ZERO) removed.
 The signal "DCM/clkfb" is unused and has been removed.
  Unused block "DCM/clkf_buf" (CKBUF) removed.
   The signal "DCM/clk0" is unused and has been removed.
@@ -139,6 +140,7 @@ Unused block "DCM/dcm_sp_inst" (DCM_SP) removed.
 
 Optimized Block(s):
 TYPE 		BLOCK
+GND 		XST_GND
 VCC 		XST_VCC
 
 Section 6 - IOB Properties
@@ -148,8 +150,10 @@ Section 6 - IOB Properties
 | IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
 |                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| rst                                | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
 | scl                                | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
 | sda                                | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| switch                             | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Section 7 - RPMs

@@ -1,10 +1,30 @@
 #-----------------------------------------------------------
 # PlanAhead v14.7 (64-bit)
 # Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
-# Start of session at: Mon Jun 22 10:02:45 2020
-# Process ID: 11460
-# Log file: E:/hoshino_Data/SotsuKen/ISE/DAC_control/planAhead_run_1/planAhead.log
-# Journal file: E:/hoshino_Data/SotsuKen/ISE/DAC_control/planAhead_run_1/planAhead.jou
+# Start of session at: Mon Jun 22 13:12:41 2020
+# Process ID: 11284
+# Log file: G:/lab/DAC_control/planAhead_run_1/planAhead.log
+# Journal file: G:/lab/DAC_control/planAhead_run_1/planAhead.jou
 #-----------------------------------------------------------
 start_gui
-source E:/hoshino_Data/SotsuKen/ISE/DAC_control/pa.fromHdl.tcl
+source G:/lab/DAC_control/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P94 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin P47 [get_ports rst]
+endgroup
+startgroup
+set_property package_pin P48 [get_ports scl]
+endgroup
+startgroup
+set_property package_pin P51 [get_ports sda]
+endgroup
+startgroup
+set_property package_pin P50 [get_ports switch]
+endgroup
+startgroup
+set_property package_pin P51 [get_ports sda]
+endgroup
+save_constraints
