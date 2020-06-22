@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-06-22T13:12:36</DateModified>
+  <DateModified>2020-06-22T13:22:21</DateModified>
   <ModuleName>MCP4726_ctrl</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>G:/lab/DAC_control/iseconfig/MCP4726_ctrl.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>G:/lab/DAC_control\</ImplementationReportsDirectory>
+  <SavedFilePath>E:/hoshino_Data/SotsuKen/ISE/DAC_control/iseconfig/MCP4726_ctrl.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>E:/hoshino_Data/SotsuKen/ISE/DAC_control\</ImplementationReportsDirectory>
   <DateInitialized>2020-06-19T10:45:17</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
