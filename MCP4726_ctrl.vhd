@@ -55,6 +55,7 @@ constant level_25 : std_logic_vector(11 downto 0):= X"800"; --出力2.５ボルト時の
 signal clk100M : std_logic; --100Mクロック
 signal counter : std_logic_vector(3 downto 0); --100kクロック構成用
 signal scl_out : STD_LOGIC:='0'; --scl出力用
+signal scl_rise : std_logic; --scl立ち上がり立ち下がり検出用
 signal sda_out : STD_LOGIC:= '1'; --sda出力用(データ未転送時high)
 signal sda_data : std_logic_vector(23 downto 0); --sdaのデータ
 signal sda_bit : std_logic_vector(7 downto 0):= X"FF"; --sda送信のために1ビットずつにするときに使う
@@ -75,14 +76,17 @@ DCM : DCMto100k
     begin
         if rst = '1' then
             counter <= (others => '0');
-            sw_ac <= '0';
+			sw_ac <= '0';
+			scl_rise <= '0';
             lv_change <= '0';
         elsif clk100M' event and clk100M = '1' then
             --100k分のカウントを行う
             if counter = hz_100k then
-                counter <= (others => '0');
+				counter <= (others => '0');
+				scl_rise <= '1';
             else
-                counter <= counter +1;
+				counter <= counter +1;
+				scl_rise <= '0';
             end if;
         end if;
 
@@ -103,7 +107,7 @@ DCM : DCMto100k
         end if;
     end process;
 
-    process(counter,sw_ac)
+    process(counter,sw_ac,scl_rise)
     begin
         --スイッチが押されたらSDA転送開始
         if sw_ac = '1' then
@@ -112,7 +116,7 @@ DCM : DCMto100k
         end if;
 
         --100kHzクロック生成
-        if counter = hz_100k then
+        if scl_rise = '1' then
             scl_out <= not scl_out;
         end if;
 
