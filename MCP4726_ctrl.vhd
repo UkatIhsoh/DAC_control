@@ -33,10 +33,10 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity MCP4726_ctrl is
     Port ( clk : in  STD_LOGIC; --DCMÇ≈100MHzÇ…Ç∑ÇÈ
-           rst : in  STD_LOGIC;
-           switch : in  STD_LOGIC;
-           scl : out  STD_LOGIC;
-           sda : out  STD_LOGIC);
+           rst : in  STD_LOGIC; --WING_B[15]Ç…ì¸óÕ
+           switch : in  STD_LOGIC; --WING_B[14]Ç…ì¸óÕ
+           scl : out  STD_LOGIC; --WING_A[0]Ç…èoóÕ
+           sda : out  STD_LOGIC); --WING_A[1]Ç…èoóÕ
 end MCP4726_ctrl;
 
 architecture control of MCP4726_ctrl is

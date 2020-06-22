@@ -22,17 +22,45 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="DAC_control.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="MCP4726_ctrl.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="MCP4726_ctrl.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="MCP4726_ctrl.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="MCP4726_ctrl.ncd" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="MCP4726_ctrl.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="MCP4726_ctrl.ngd"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="MCP4726_ctrl.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="MCP4726_ctrl.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="MCP4726_ctrl.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="MCP4726_ctrl.pcf" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MCP4726_ctrl.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="MCP4726_ctrl.ptwx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="MCP4726_ctrl.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="MCP4726_ctrl.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="MCP4726_ctrl.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="MCP4726_ctrl.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="MCP4726_ctrl.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="MCP4726_ctrl.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="MCP4726_ctrl.xst"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="MCP4726_ctrl_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="MCP4726_ctrl_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="MCP4726_ctrl_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="MCP4726_ctrl_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="MCP4726_ctrl_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="MCP4726_ctrl_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="MCP4726_ctrl_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="MCP4726_ctrl_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="MCP4726_ctrl_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="MCP4726_ctrl_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="MCP4726_ctrl_par.xrpt"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="MCP4726_ctrl_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="MCP4726_ctrl_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="MCP4726_ctrl_usage.xml"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="MCP4726_ctrl_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="ipcore_dir/coregen.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
@@ -41,6 +69,7 @@
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_4"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_5"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
@@ -78,6 +107,10 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="MCP4726_ctrl.lso"/>
       <outfile xil_pn:name="MCP4726_ctrl.ngc"/>
       <outfile xil_pn:name="MCP4726_ctrl.ngr"/>
@@ -89,6 +122,58 @@
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1592793839" xil_pn:in_ck="-6106063570252271391" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="7674128603146545955" xil_pn:start_ts="1592793839">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1592793848" xil_pn:in_ck="-4590526361691373152" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="704775274873743910" xil_pn:start_ts="1592793839">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="MCP4726_ctrl.bld"/>
+      <outfile xil_pn:name="MCP4726_ctrl.ngd"/>
+      <outfile xil_pn:name="MCP4726_ctrl_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1592793861" xil_pn:in_ck="-8415855456904567903" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="1448924893915930207" xil_pn:start_ts="1592793848">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="MCP4726_ctrl.pcf"/>
+      <outfile xil_pn:name="MCP4726_ctrl_map.map"/>
+      <outfile xil_pn:name="MCP4726_ctrl_map.mrp"/>
+      <outfile xil_pn:name="MCP4726_ctrl_map.ncd"/>
+      <outfile xil_pn:name="MCP4726_ctrl_map.ngm"/>
+      <outfile xil_pn:name="MCP4726_ctrl_map.xrpt"/>
+      <outfile xil_pn:name="MCP4726_ctrl_summary.xml"/>
+      <outfile xil_pn:name="MCP4726_ctrl_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1592793874" xil_pn:in_ck="3131855139106997562" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="93661965788626211" xil_pn:start_ts="1592793861">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="MCP4726_ctrl.ncd"/>
+      <outfile xil_pn:name="MCP4726_ctrl.pad"/>
+      <outfile xil_pn:name="MCP4726_ctrl.par"/>
+      <outfile xil_pn:name="MCP4726_ctrl.ptwx"/>
+      <outfile xil_pn:name="MCP4726_ctrl.unroutes"/>
+      <outfile xil_pn:name="MCP4726_ctrl.xpi"/>
+      <outfile xil_pn:name="MCP4726_ctrl_pad.csv"/>
+      <outfile xil_pn:name="MCP4726_ctrl_pad.txt"/>
+      <outfile xil_pn:name="MCP4726_ctrl_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1592793874" xil_pn:in_ck="-1534504878920754403" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416184" xil_pn:start_ts="1592793869">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="MCP4726_ctrl.twr"/>
+      <outfile xil_pn:name="MCP4726_ctrl.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
     </transform>
   </transforms>
 
