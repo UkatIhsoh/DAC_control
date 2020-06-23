@@ -1,14 +1,14 @@
 Release 14.7 - Bitgen P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 Loading device for application Rf_Device from file '6slx9.nph' in environment
-C:\Xilinx\14.7\ISE_DS\ISE\.
+E:\Xilinx\14.7\ISE_DS\ISE\.
    "MCP4726_ctrl" is an NCD, version 3.2, device xc6slx9, package tqg144, speed
 -2
 Opened constraints file MCP4726_ctrl.pcf.
 
-MON 22 JUN 13:15:23 2020
+TUE 23 JUN 10:0:16 2020
 
-C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\bitgen.exe -intstyle ise -w -g DebugBitstream:No -g Binary:no -g CRC:Enable -g Reset_on_err:No -g ConfigRate:2 -g ProgPin:PullUp -g TckPin:PullUp -g TdiPin:PullUp -g TdoPin:PullUp -g TmsPin:PullUp -g UnusedPin:PullDown -g UserID:0xFFFFFFFF -g ExtMasterCclk_en:No -g SPI_buswidth:1 -g TIMER_CFG:0xFFFF -g multipin_wakeup:No -g StartUpClk:CClk -g DONE_cycle:4 -g GTS_cycle:5 -g GWE_cycle:6 -g LCK_cycle:NoWait -g Security:None -g DonePipe:Yes -g DriveDone:No -g en_sw_gsr:No -g drive_awake:No -g sw_clk:Startupclk -g sw_gwe_cycle:5 -g sw_gts_cycle:4 MCP4726_ctrl.ncd 
+E:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\bitgen.exe -intstyle ise -w -g DebugBitstream:No -g Binary:no -g CRC:Enable -g Reset_on_err:No -g ConfigRate:2 -g ProgPin:PullUp -g TckPin:PullUp -g TdiPin:PullUp -g TdoPin:PullUp -g TmsPin:PullUp -g UnusedPin:PullDown -g UserID:0xFFFFFFFF -g ExtMasterCclk_en:No -g SPI_buswidth:1 -g TIMER_CFG:0xFFFF -g multipin_wakeup:No -g StartUpClk:CClk -g DONE_cycle:4 -g GTS_cycle:5 -g GWE_cycle:6 -g LCK_cycle:NoWait -g Security:None -g DonePipe:Yes -g DriveDone:No -g en_sw_gsr:No -g drive_awake:No -g sw_clk:Startupclk -g sw_gwe_cycle:5 -g sw_gts_cycle:4 MCP4726_ctrl.ncd 
 
 Summary of Bitgen Options:
 +----------------------+----------------------+
@@ -129,7 +129,24 @@ There were 0 CONFIG constraint(s) processed from MCP4726_ctrl.pcf.
 
 
 Running DRC.
-DRC detected 0 errors and 0 warnings.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Mmux_sda_bit[7]_sda_bit[7]_MUX_132_o731 is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sw_ac_sda_bit[7]_MUX_163_o
+   is sourced by a combinatorial pin. This is not good design practice. Use the
+   CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sw_ac_G is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net GND_6_o_sw_ac_OR_49_o is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net rst_sw_ac_MUX_40_o is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+DRC detected 0 errors and 5 warnings.  Please see the previously displayed
+individual error or warning messages for more details.
 Creating bit map...
 Saving bit stream in "mcp4726_ctrl.bit".
 Bitstream generation is complete.

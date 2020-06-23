@@ -55,7 +55,7 @@
 -- "Output    Output      Phase     Duty      Pk-to-Pk        Phase"
 -- "Clock    Freq (MHz) (degrees) Cycle (%) Jitter (ps)  Error (ps)"
 ------------------------------------------------------------------------------
--- CLK_OUT1___100.000______0.000______50.0______400.000____150.000
+-- CLK_OUT1_____1.000______0.000______50.0______300.000____150.000
 --
 ------------------------------------------------------------------------------
 -- "Input Clock   Freq (MHz)    Input Jitter (UI)"
@@ -88,7 +88,7 @@ architecture xilinx of DCMto100k is
   -- Output clock buffering
   signal clkfb             : std_logic;
   signal clk0              : std_logic;
-  signal clkfx             : std_logic;
+  signal clkdv             : std_logic;
   signal clkfbout          : std_logic;
   signal locked_internal   : std_logic;
   signal status_internal   : std_logic_vector(7 downto 0);
@@ -111,10 +111,10 @@ begin
   --    * Unused outputs are labeled unused
   dcm_sp_inst: DCM_SP
   generic map
-   (CLKDV_DIVIDE          => 2.000,
-    CLKFX_DIVIDE          => 8,
-    CLKFX_MULTIPLY        => 25,
-    CLKIN_DIVIDE_BY_2     => FALSE,
+   (CLKDV_DIVIDE          => 16.000,
+    CLKFX_DIVIDE          => 1,
+    CLKFX_MULTIPLY        => 4,
+    CLKIN_DIVIDE_BY_2     => TRUE,
     CLKIN_PERIOD          => 31.25,
     CLKOUT_PHASE_SHIFT    => "NONE",
     CLK_FEEDBACK          => "1X",
@@ -132,9 +132,9 @@ begin
     CLK270                => open,
     CLK2X                 => open,
     CLK2X180              => open,
-    CLKFX                 => clkfx,
+    CLKFX                 => open,
     CLKFX180              => open,
-    CLKDV                 => open,
+    CLKDV                 => clkdv,
    -- Ports for dynamic phase shift
     PSCLK                 => '0',
     PSEN                  => '0',
@@ -161,7 +161,7 @@ begin
   clkout1_buf : BUFG
   port map
    (O   => CLK_OUT1,
-    I   => clkfx);
+    I   => clkdv);
 
 
 

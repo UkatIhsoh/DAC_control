@@ -62,7 +62,7 @@ ARCHITECTURE behavior OF MCP4726_test IS
    signal sda : std_logic;
 
    -- Clock period definitions
-   constant clk_period : time := 10 ns;
+   constant clk_period : time := 1 ns;
  
 BEGIN
  

@@ -32,7 +32,7 @@ use IEEE.NUMERIC_STD.ALL;
 --use UNISIM.VComponents.all;
 
 entity MCP4726_ctrl is
-    Port ( clk : in  STD_LOGIC; --DCMで100MHzにする
+    Port ( clk : in  STD_LOGIC; --DCMで100MHzにする -> いろいろあって1MHZに
            rst : in  STD_LOGIC; --WING_B[15]に入力
            switch : in  STD_LOGIC; --WING_B[14]に入力
            scl : out  STD_LOGIC; --WING_A[0]に出力
@@ -46,8 +46,8 @@ component DCMto100k is
 			CLK_OUT1 :std_logic);
 end component;
 
-constant hz_100k : std_logic_vector(11 downto 0):= X"3E8"; --100Mクロックで100kクロックを再現するためのカウント値
-constant half_100k :std_logic_vector(11 downto 0):= X"1F4"; --100kの半分 
+constant hz_100k : std_logic_vector(11 downto 0):= X"009"; --1Mクロックで100kクロックを再現するためのカウント値
+constant half_100k :std_logic_vector(11 downto 0):= X"004"; --100kの半分 
 constant WVDR : std_logic_vector(11 downto 0):= "110000000000"; --Write Volatile DAC Registerモード(パワーダウンなし) 
 constant level_5 : std_logic_vector(11 downto 0):= X"FFF"; --出力５ボルト時の12bitデータ
 constant level_25 : std_logic_vector(11 downto 0):= X"800"; --出力2.５ボルト時の12bitデータ
@@ -61,13 +61,14 @@ signal sda_data : std_logic_vector(23 downto 0); --sdaのデータ
 signal sda_bit : std_logic_vector(7 downto 0):= X"FF"; --sda送信のために1ビットずつにするときに使う
 signal sw_ac : STD_LOGIC; --switchが押されたことを認識するため
 signal lv_change : STD_LOGIC; --レベル変更用変数
+signal fix : std_logic:= '0'; --修正用
 
 begin
 
---	clk100M <= clk; --テストベンチ用
-DCM : DCMto100k
-	port map(CLK_IN1 => clk,
-				CLK_OUT1 => clk100M);
+	clk100M <= clk; --テストベンチ用
+--DCM : DCMto100k
+--	port map(CLK_IN1 => clk,
+--				CLK_OUT1 => clk100M);
 	
     scl <= scl_out;
     sda <= sda_out;
@@ -76,8 +77,8 @@ DCM : DCMto100k
     begin
         if rst = '1' then
             counter <= (others => '0');
-			sw_ac <= '0';
-			scl_rise <= '0';
+				sw_ac <= '0';
+				scl_rise <= '0';
             lv_change <= '0';
         elsif clk100M' event and clk100M = '1' then
             --100k分のカウントを行う
@@ -124,7 +125,12 @@ DCM : DCMto100k
         if counter = half_100k then
 				 if sda_bit = X"00" then
 					  sda_out <= '0';
-					  sda_bit <= sda_bit +1;
+					  	if fix = '1' then
+							sda_bit <= sda_bit +1;
+							fix <= '0';
+					  else
+							fix <= '1';
+					  end if;
 				 elsif sda_bit = X"01" or sda_bit = X"02" then
 					  sda_out <= sda_data(23);
 					  sda_bit <= sda_bit +1;

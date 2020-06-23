@@ -1,8 +1,25 @@
 Release 14.7 Drc P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-MON 22 JUN 13:15:23 2020
+TUE 23 JUN 10:0:16 2020
 
 drc -z MCP4726_ctrl.ncd MCP4726_ctrl.pcf
 
-DRC detected 0 errors and 0 warnings.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Mmux_sda_bit[7]_sda_bit[7]_MUX_132_o731 is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sw_ac_sda_bit[7]_MUX_163_o
+   is sourced by a combinatorial pin. This is not good design practice. Use the
+   CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sw_ac_G is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net GND_6_o_sw_ac_OR_49_o is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net rst_sw_ac_MUX_40_o is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+DRC detected 0 errors and 5 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

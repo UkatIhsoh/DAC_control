@@ -11,6 +11,4 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-at 5 ns(2), Instance /mcp4726_test/uut/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# run all
-Stopped at time : 131006150 ns : File "E:/hoshino_Data/SotsuKen/ISE/DAC_control/MCP4726_ctrl.vhd" Line 66
+at 500 ps(2), Instance /mcp4726_test/uut/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).

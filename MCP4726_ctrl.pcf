@@ -1,8 +1,9 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Mon Jun 22 13:15:03 2020
+// Written by: Map P.20131013 on Tue Jun 23 09:58:01 2020
 //! **************************************************************************
 
 SCHEMATIC START;
+COMP "clk" LOCATE = SITE "P94" LEVEL 1;
 COMP "switch" LOCATE = SITE "P50" LEVEL 1;
 COMP "sda" LOCATE = SITE "P51" LEVEL 1;
 COMP "scl" LOCATE = SITE "P48" LEVEL 1;

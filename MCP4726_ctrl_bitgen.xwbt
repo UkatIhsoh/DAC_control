@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=G:\lab\DAC_control\MCP4726_ctrl.ncd
-OUTFILE=G:\lab\DAC_control\MCP4726_ctrl.bit
+INFILE=E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.ncd
+OUTFILE=E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.bit
 FAMILY=Spartan6
 PART=xc6slx9-2tqg144
-WORKINGDIR=G:\lab\DAC_control
+WORKINGDIR=E:\hoshino_Data\SotsuKen\ISE\DAC_control
 LICENSE=WebPack
-USER_INFO=211736874_0_0_771
+USER_INFO=211521278_0_0_438

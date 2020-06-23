@@ -50,3 +50,4 @@ DCMto100k\simulation\timing\vcs_session.tcl
 DCMto100k\simulation\timing\wave.do
 DCMto100k_flist.txt
 DCMto100k_xmdf.tcl
+_xmsgs\pn_parser.xmsgs
