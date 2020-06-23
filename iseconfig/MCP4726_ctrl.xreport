@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-06-23T09:55:10</DateModified>
+  <DateModified>2020-06-23T10:23:29</DateModified>
   <ModuleName>MCP4726_ctrl</ModuleName>
   <SummaryTimeStamp>2020-06-23T09:02:15</SummaryTimeStamp>
   <SavedFilePath>E:/hoshino_Data/SotsuKen/ISE/DAC_control/iseconfig/MCP4726_ctrl.xreport</SavedFilePath>

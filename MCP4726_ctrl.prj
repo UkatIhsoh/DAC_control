@@ -1,1 +1,2 @@
+vhdl work "ipcore_dir/DCMto100k.vhd"
 vhdl work "MCP4726_ctrl.vhd"

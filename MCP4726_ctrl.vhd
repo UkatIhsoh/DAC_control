@@ -65,10 +65,10 @@ signal fix : std_logic:= '0'; --修正用
 
 begin
 
-	clk100M <= clk; --テストベンチ用
---DCM : DCMto100k
---	port map(CLK_IN1 => clk,
---				CLK_OUT1 => clk100M);
+	--clk100M <= clk; --テストベンチ用
+DCM : DCMto100k
+	port map(CLK_IN1 => clk,
+				CLK_OUT1 => clk100M);
 	
     scl <= scl_out;
     sda <= sda_out;

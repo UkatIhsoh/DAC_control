@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="par" timeStamp="Tue Jun 23 09:58:47 2020">
+  <application stringID="par" timeStamp="Tue Jun 23 10:27:15 2020">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -51,7 +51,7 @@
         <item stringID="PAR_CPU_TIME_COMPLETION_ROUTER" value="3 secs "/>
         <item dataType="int" stringID="PAR_UNROUTES" value="0"/>
         <item dataType="float" stringID="PAR_TIMING_SCORE" value="0.000000"/>
-        <item stringID="PAR_REAL_TIME_COMPLETION_PAR" value="34 secs "/>
+        <item stringID="PAR_REAL_TIME_COMPLETION_PAR" value="35 secs "/>
         <item stringID="PAR_CPU_TIME_COMPLETION_PAR" value="4 secs "/>
       </section>
     </task>
@@ -1034,7 +1034,7 @@
     </task>
   </application>
 
-  <application stringID="Par" timeStamp="Tue Jun 23 09:58:50 2020">
+  <application stringID="Par" timeStamp="Tue Jun 23 10:27:19 2020">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -1097,15 +1097,15 @@
           <item dataType="int" stringID="PAR_NUM_LUT_RT_DRIVES_CARRY4" value="0"/>
           <item dataType="int" stringID="PAR_NUM_LUT_RT_DRIVES_OTHERS" value="0"/>
         </item>
-        <item AVAILABLE="1430" dataType="int" stringID="PAR_OCCUPIED_SLICES" value="20">
+        <item AVAILABLE="1430" dataType="int" stringID="PAR_OCCUPIED_SLICES" value="17">
           <item AVAILABLE="355" dataType="int" stringID="PAR_NUM_SLICEL" value="3"/>
           <item AVAILABLE="360" dataType="int" stringID="PAR_NUM_SLICEM" value="0"/>
-          <item AVAILABLE="715" dataType="int" stringID="PAR_NUM_SLICEX" value="17"/>
+          <item AVAILABLE="715" dataType="int" stringID="PAR_NUM_SLICEX" value="14"/>
         </item>
-        <item dataType="int" stringID="PAR_OCCUPIED_LUT_AND_FF" value="57">
-          <item dataType="int" stringID="PAR_OCCUPIED_LUT_ONLY" value="35"/>
-          <item dataType="int" stringID="PAR_OCCUPIED_FF_ONLY" value="3"/>
-          <item dataType="int" stringID="PAR_OCCUPIED_FF_AND_LUT" value="19"/>
+        <item dataType="int" stringID="PAR_OCCUPIED_LUT_AND_FF" value="54">
+          <item dataType="int" stringID="PAR_OCCUPIED_LUT_ONLY" value="32"/>
+          <item dataType="int" stringID="PAR_OCCUPIED_FF_ONLY" value="0"/>
+          <item dataType="int" stringID="PAR_OCCUPIED_FF_AND_LUT" value="22"/>
         </item>
       </section>
       <section stringID="PAR_IOB_REPORTING">
@@ -1144,7 +1144,7 @@
         <item AVAILABLE="1" dataType="int" stringID="PAR_NUM_SUSPEND_SYNC" value="0"/>
       </section>
       <section stringID="PAR_BUFG_DATA">
-        <item dataType="int" stringID="PAR_NUM_BUFG" value="1"/>
+        <item dataType="int" stringID="PAR_NUM_BUFG" value="2"/>
         <item dataType="int" stringID="PAR_NUM_BUFGMUX" value="0"/>
         <item dataType="int" stringID="PAR_AVAILABLE" value="16"/>
       </section>
