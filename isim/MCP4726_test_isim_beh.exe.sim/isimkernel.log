@@ -2,28 +2,28 @@ Command line:
    MCP4726_test_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  63508
+     -socket  50476
 
-Tue Jun 23 09:54:49 2020
+Tue Jun 30 09:29:56 2020
 
 
  Elaboration Time: 0.03125 sec
 
- Current Memory Usage: 4995.82 Meg
+ Current Memory Usage: 5153.08 Meg
 
- Total Signals          : 20
- Total Nets             : 48
- Total Signal Drivers   : 15
+ Total Signals          : 22
+ Total Nets             : 66
+ Total Signal Drivers   : 17
  Total Blocks           : 6
  Total Primitive Blocks : 5
  Total Processes        : 7
- Total Traceable Variables  : 21
- Total Scalar Nets and Variables : 610
-Total Line Count : 102
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 668
+Total Line Count : 109
 
- Total Simulation Time: 0.03125 sec
+ Total Simulation Time: 94.1563 sec
 
- Current Memory Usage: 4995.82 Meg
+ Current Memory Usage: 4995.79 Meg
 
-Tue Jun 23 09:55:06 2020
+Tue Jun 30 09:32:05 2020
 

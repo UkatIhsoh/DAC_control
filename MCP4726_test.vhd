@@ -46,6 +46,7 @@ ARCHITECTURE behavior OF MCP4726_test IS
          clk : IN  std_logic;
          rst : IN  std_logic;
          switch : IN  std_logic;
+			trigger : out std_logic;
          scl : OUT  std_logic;
          sda : OUT  std_logic
         );
@@ -58,6 +59,7 @@ ARCHITECTURE behavior OF MCP4726_test IS
    signal switch : std_logic := '0';
 
  	--Outputs
+	signal trigger : std_logic;
    signal scl : std_logic;
    signal sda : std_logic;
 
@@ -71,6 +73,7 @@ BEGIN
           clk => clk,
           rst => rst,
           switch => switch,
+			 trigger => trigger,
           scl => scl,
           sda => sda
         );

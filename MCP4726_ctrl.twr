@@ -37,8 +37,8 @@ Clock to Setup on destination clock clk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk            |    1.877|         |         |         |
-rst            |    2.822|    2.822|         |         |
+clk            |    3.640|         |         |         |
+rst            |    2.138|    2.138|         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock rst
@@ -46,8 +46,8 @@ Clock to Setup on destination clock rst
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-rst            |         |         |         |    2.201|
-switch         |         |         |    0.461|    2.201|
+rst            |         |         |         |    2.405|
+switch         |         |         |    0.366|    2.405|
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock switch
@@ -55,19 +55,19 @@ Clock to Setup on destination clock switch
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-rst            |         |         |         |    2.201|
-switch         |         |         |    0.603|    2.201|
+rst            |         |         |         |    2.405|
+switch         |         |         |    0.661|    2.405|
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed TUE 23 JUN 10:28:12 2020 
+Analysis completed TUE 30 JUN 9:46:7 2020 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 4569 MB
+Peak Memory Usage: 4570 MB
 
 
 

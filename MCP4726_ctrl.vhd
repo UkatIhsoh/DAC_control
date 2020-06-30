@@ -35,6 +35,7 @@ entity MCP4726_ctrl is
     Port ( clk : in  STD_LOGIC; --DCMで100MHzにする -> いろいろあって1MHZに
            rst : in  STD_LOGIC; --WING_B[15]に入力
            switch : in  STD_LOGIC; --WING_B[14]に入力
+			  trigger : out std_logic; --出力確認用トリガー,WING_A[2]に出力
            scl : out  STD_LOGIC; --WING_A[0]に出力
            sda : out  STD_LOGIC); --WING_A[1]に出力
 end MCP4726_ctrl;
@@ -46,30 +47,38 @@ component DCMto100k is
 			CLK_OUT1 :std_logic);
 end component;
 
-constant hz_100k : std_logic_vector(11 downto 0):= X"009"; --1Mクロックで100kクロックを再現するためのカウント値
-constant half_100k :std_logic_vector(11 downto 0):= X"004"; --100kの半分 
+--constant hz_100k : std_logic_vector(11 downto 0):= X"009"; --1Mクロックで100kクロックを再現するためのカウント値
+--constant half_100k :std_logic_vector(11 downto 0):= X"004"; --100kの半分 
+constant hz_100k : std_logic_vector(19 downto 0):= X"4E200"; --32Mクロックで100kクロックを再現するためのカウント値
+constant half_100k :std_logic_vector(19 downto 0):= X"27100"; --100kの半分 
 constant WVDR : std_logic_vector(11 downto 0):= "110000000000"; --Write Volatile DAC Registerモード(パワーダウンなし) 
 constant level_5 : std_logic_vector(11 downto 0):= X"FFF"; --出力５ボルト時の12bitデータ
 constant level_25 : std_logic_vector(11 downto 0):= X"800"; --出力2.５ボルト時の12bitデータ
+constant test_data : std_logic_vector(23 downto 0):= X"FFFFFF";
 
 signal clk100M : std_logic; --100Mクロック
-signal counter : std_logic_vector(3 downto 0); --100kクロック構成用
+--signal counter : std_logic_vector(11 downto 0); --100kクロック構成用
+signal counter : std_logic_vector(19 downto 0); --100kクロック構成用
 signal scl_out : STD_LOGIC:='0'; --scl出力用
 signal scl_rise : std_logic; --scl立ち上がり立ち下がり検出用
-signal sda_out : STD_LOGIC:= '1'; --sda出力用(データ未転送時high)
+signal sda_out : STD_LOGIC; --sda出力用(データ未転送時high)
+signal sda_rise : std_logic; --sdaタイミング検出用
 signal sda_data : std_logic_vector(23 downto 0); --sdaのデータ
-signal sda_bit : std_logic_vector(7 downto 0):= X"FF"; --sda送信のために1ビットずつにするときに使う
+signal sda_bit : std_logic_vector(7 downto 0):= X"00"; --sda送信のために1ビットずつにするときに使う
 signal sw_ac : STD_LOGIC; --switchが押されたことを認識するため
 signal lv_change : STD_LOGIC; --レベル変更用変数
 signal fix : std_logic:= '0'; --修正用
+signal break : std_logic:= '1'; --ループ防止
+signal trg : std_logic; --trigger  
 
 begin
 
-	--clk100M <= clk; --テストベンチ用
-DCM : DCMto100k
-	port map(CLK_IN1 => clk,
-				CLK_OUT1 => clk100M);
-	
+	clk100M <= clk; --テストベンチ用
+--DCM : DCMto100k
+--	port map(CLK_IN1 => clk,
+--				CLK_OUT1 => clk100M);
+--	
+	 trigger <= trg;
     scl <= scl_out;
     sda <= sda_out;
 
@@ -79,15 +88,20 @@ DCM : DCMto100k
             counter <= (others => '0');
 				sw_ac <= '0';
 				scl_rise <= '0';
+				sda_rise <= '0';
             lv_change <= '0';
         elsif clk100M' event and clk100M = '1' then
             --100k分のカウントを行う
             if counter = hz_100k then
-				counter <= (others => '0');
-				scl_rise <= '1';
+					counter <= (others => '0');
+					scl_rise <= '1';
+				elsif counter = half_100k then
+					counter <= counter +1;
+					sda_rise <= '1';
             else
-				counter <= counter +1;
-				scl_rise <= '0';
+					counter <= counter +1;
+					scl_rise <= '0';
+					sda_rise <= '0';
             end if;
         end if;
 
@@ -108,13 +122,16 @@ DCM : DCMto100k
         end if;
     end process;
 
-    process(counter,sw_ac,scl_rise)
+    process(counter,sw_ac,scl_rise,sda_rise)
     begin
-        --スイッチが押されたらSDA転送開始
-        if sw_ac = '1' then
-            sda_out <= '1';
-            sda_bit <= X"00";
-        end if;
+	 
+			if sw_ac = '1' then
+				 sda_out <= '1';
+				sda_bit <= X"00";
+				if break <= '1' then 
+					break <= '0';					
+				end if;
+			end if;
 
         --100kHzクロック生成
         if scl_rise = '1' then
@@ -122,16 +139,18 @@ DCM : DCMto100k
         end if;
 
         --データシート指定に則ったデータ出力
-        if counter = half_100k then
+        if sda_rise = '1' then
 				 if sda_bit = X"00" then
 					  sda_out <= '0';
-					  	if fix = '1' then
+					  trg <= '1';
+					  if fix = '1' then
 							sda_bit <= sda_bit +1;
 							fix <= '0';
 					  else
 							fix <= '1';
 					  end if;
 				 elsif sda_bit = X"01" or sda_bit = X"02" then
+						trg <= '0';
 					  sda_out <= sda_data(23);
 					  sda_bit <= sda_bit +1;
 				 elsif sda_bit = X"03" or sda_bit = X"04" then
@@ -213,7 +232,12 @@ DCM : DCMto100k
 					  sda_out <= '0';
 					  sda_bit <= sda_bit +1;
 				 else
-					  sda_out <= '1';
+					   sda_out <= '1';
+						if sw_ac = '1' then
+							if break <= '1' then 
+								break <= '0';					
+							end if;
+						end if;
 				end if;
         end if;
 

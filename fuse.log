@@ -15,8 +15,8 @@ Compiling package numeric_std
 Compiling architecture control of entity MCP4726_ctrl [mcp4726_ctrl_default]
 Compiling architecture behavior of entity mcp4726_test
 Time Resolution for simulation is 1ps.
-Waiting for 2 sub-compilation(s) to finish...
+Waiting for 1 sub-compilation(s) to finish...
 Compiled 8 VHDL Units
 Built simulation executable E:/hoshino_Data/SotsuKen/ISE/DAC_control/MCP4726_test_isim_beh.exe
-Fuse Memory Usage: 37408 KB
-Fuse CPU Usage: 624 ms
+Fuse Memory Usage: 37356 KB
+Fuse CPU Usage: 499 ms
