@@ -37,8 +37,8 @@ Clock to Setup on destination clock clk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk            |    3.640|         |         |         |
-rst            |    2.138|    2.138|         |         |
+clk            |    3.931|         |         |         |
+rst            |    2.175|    2.175|         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock rst
@@ -46,8 +46,8 @@ Clock to Setup on destination clock rst
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-rst            |         |         |         |    2.405|
-switch         |         |         |    0.366|    2.405|
+rst            |         |         |         |    2.394|
+switch         |         |         |    0.878|    2.394|
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock switch
@@ -55,12 +55,12 @@ Clock to Setup on destination clock switch
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-rst            |         |         |         |    2.405|
-switch         |         |         |    0.661|    2.405|
+rst            |         |         |         |    2.394|
+switch         |         |         |    1.214|    2.394|
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed TUE 30 JUN 9:46:7 2020 
+Analysis completed TUE 30 JUN 10:20:17 2020 
 --------------------------------------------------------------------------------
 
 Trace Settings:

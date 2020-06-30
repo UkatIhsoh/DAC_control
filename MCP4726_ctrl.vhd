@@ -69,7 +69,7 @@ signal sw_ac : STD_LOGIC; --switchが押されたことを認識するため
 signal lv_change : STD_LOGIC; --レベル変更用変数
 signal fix : std_logic:= '0'; --修正用
 signal break : std_logic:= '1'; --ループ防止
-signal trg : std_logic; --trigger  
+signal trg : std_logic:= '0'; --trigger  
 
 begin
 
@@ -125,12 +125,10 @@ begin
     process(counter,sw_ac,scl_rise,sda_rise)
     begin
 	 
-			if sw_ac = '1' then
+			if sw_ac = '1' and break = '1' then
 				 sda_out <= '1';
-					sda_bit <= X"00";
-				if break <= '1' then 
+					sda_bit <= X"00"; 
 					break <= '0';					
-				end if;
 			end if;
 
         --100kHzクロック生成
@@ -139,7 +137,7 @@ begin
         end if;
 
         --データシート指定に則ったデータ出力
-        if sda_rise = '1' then
+        if sda_rise = '1' and break = '0' then
 				 if sda_bit = X"00" then
 					  sda_out <= '0';
 					  trg <= '1';
@@ -233,7 +231,7 @@ begin
 					  sda_bit <= sda_bit +1;
 				 else
 					   sda_out <= '1';
-					   break <= '1'
+					   break <= '1';
 				end if;
         end if;
 

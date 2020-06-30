@@ -13,4 +13,4 @@ Simulator is doing circuit initialization process.
 Finished circuit initialization process.
 at 500 ps(2), Instance /mcp4726_test/uut/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 # run all
-Stopped at time : 48304752500 ps : File "E:/hoshino_Data/SotsuKen/ISE/DAC_control/MCP4726_ctrl.vhd" Line 100
+Stopped at time : 97614804500 ps : File "E:/hoshino_Data/SotsuKen/ISE/DAC_control/MCP4726_ctrl.vhd" Line 103

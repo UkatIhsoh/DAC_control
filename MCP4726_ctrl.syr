@@ -119,90 +119,90 @@ Parsing architecture <control> of entity <mcp4726_ctrl>.
 Elaborating entity <MCP4726_ctrl> (architecture <control>) from library <work>.
 WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 110: sw_ac should be on the sensitivity list of the process
 WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 112: lv_change should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 131: break should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 138: scl_out should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 142: break should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 143: sda_bit should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 146: fix should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 147: sda_bit should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 152: sda_bit should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 154: sda_data should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 155: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 128: break should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 136: scl_out should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 140: break should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 141: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 144: fix should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 145: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 150: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 152: sda_data should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 153: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 154: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 155: sda_data should be on the sensitivity list of the process
 WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 156: sda_bit should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 157: sda_data should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 158: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 157: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 158: sda_data should be on the sensitivity list of the process
 WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 159: sda_bit should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 160: sda_data should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 161: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 160: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 161: sda_data should be on the sensitivity list of the process
 WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 162: sda_bit should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 163: sda_data should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 164: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 163: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 164: sda_data should be on the sensitivity list of the process
 WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 165: sda_bit should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 166: sda_data should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 167: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 166: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 167: sda_data should be on the sensitivity list of the process
 WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 168: sda_bit should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 169: sda_data should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 170: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 169: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 170: sda_data should be on the sensitivity list of the process
 WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 171: sda_bit should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 172: sda_data should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 173: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 172: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 173: sda_data should be on the sensitivity list of the process
 WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 174: sda_bit should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 175: sda_data should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 176: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 175: sda_bit should be on the sensitivity list of the process
 WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 177: sda_bit should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 179: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 178: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 179: sda_data should be on the sensitivity list of the process
 WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 180: sda_bit should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 181: sda_data should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 182: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 181: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 182: sda_data should be on the sensitivity list of the process
 WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 183: sda_bit should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 184: sda_data should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 185: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 184: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 185: sda_data should be on the sensitivity list of the process
 WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 186: sda_bit should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 187: sda_data should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 188: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 187: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 188: sda_data should be on the sensitivity list of the process
 WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 189: sda_bit should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 190: sda_data should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 191: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 190: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 191: sda_data should be on the sensitivity list of the process
 WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 192: sda_bit should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 193: sda_data should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 194: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 193: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 194: sda_data should be on the sensitivity list of the process
 WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 195: sda_bit should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 196: sda_data should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 197: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 196: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 197: sda_data should be on the sensitivity list of the process
 WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 198: sda_bit should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 199: sda_data should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 200: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 199: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 200: sda_data should be on the sensitivity list of the process
 WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 201: sda_bit should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 202: sda_data should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 203: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 202: sda_bit should be on the sensitivity list of the process
 WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 204: sda_bit should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 206: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 205: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 206: sda_data should be on the sensitivity list of the process
 WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 207: sda_bit should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 208: sda_data should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 209: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 208: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 209: sda_data should be on the sensitivity list of the process
 WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 210: sda_bit should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 211: sda_data should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 212: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 211: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 212: sda_data should be on the sensitivity list of the process
 WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 213: sda_bit should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 214: sda_data should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 215: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 214: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 215: sda_data should be on the sensitivity list of the process
 WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 216: sda_bit should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 217: sda_data should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 218: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 217: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 218: sda_data should be on the sensitivity list of the process
 WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 219: sda_bit should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 220: sda_data should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 221: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 220: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 221: sda_data should be on the sensitivity list of the process
 WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 222: sda_bit should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 223: sda_data should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 224: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 223: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 224: sda_data should be on the sensitivity list of the process
 WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 225: sda_bit should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 226: sda_data should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 227: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 226: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 227: sda_data should be on the sensitivity list of the process
 WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 228: sda_bit should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 229: sda_data should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 230: sda_bit should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 229: sda_bit should be on the sensitivity list of the process
 WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 231: sda_bit should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "E:\hoshino_Data\SotsuKen\ISE\DAC_control\MCP4726_ctrl.vhd" Line 233: sda_bit should be on the sensitivity list of the process
 
 =========================================================================
 *                           HDL Synthesis                               *
@@ -214,7 +214,7 @@ Synthesizing Unit <MCP4726_ctrl>.
     Found 1-bit register for signal <scl_rise>.
     Found 1-bit register for signal <sda_rise>.
     Found 20-bit adder for signal <counter[19]_GND_6_o_add_3_OUT> created at line 102.
-    Found 8-bit adder for signal <sda_bit[7]_GND_6_o_add_94_OUT> created at line 233.
+    Found 8-bit adder for signal <sda_bit[7]_GND_6_o_add_94_OUT> created at line 231.
 WARNING:Xst:737 - Found 1-bit latch for signal <lv_change>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <sda_data<23>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <sda_data<21>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
@@ -230,7 +230,7 @@ WARNING:Xst:737 - Found 1-bit latch for signal <sda_bit<1>>. Latches may be gene
 WARNING:Xst:737 - Found 1-bit latch for signal <sda_bit<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <break>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <scl_out>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <trigger>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <trg>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <fix>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <sw_ac>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
     Summary:
@@ -323,7 +323,7 @@ WARNING:Xst:1293 - FF/Latch <sda_bit_6> has a constant value of 0 in block <MCP4
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block MCP4726_ctrl, actual ratio is 2.
+Found area constraint ratio of 100 (+ 5) on block MCP4726_ctrl, actual ratio is 1.
 
 Final Macro Processing ...
 
@@ -355,17 +355,17 @@ Top Level Output File Name         : MCP4726_ctrl.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 133
+# BELS                             : 129
 #      GND                         : 1
 #      INV                         : 4
 #      LUT1                        : 19
-#      LUT2                        : 25
-#      LUT3                        : 7
-#      LUT4                        : 5
-#      LUT5                        : 9
+#      LUT2                        : 23
+#      LUT3                        : 6
+#      LUT4                        : 6
+#      LUT5                        : 6
 #      LUT6                        : 21
 #      MUXCY                       : 19
-#      MUXF7                       : 2
+#      MUXF7                       : 3
 #      VCC                         : 1
 #      XORCY                       : 20
 # FlipFlops/Latches                : 36
@@ -388,14 +388,14 @@ Selected Device : 6slx9tqg144-2
 
 Slice Logic Utilization: 
  Number of Slice Registers:              34  out of  11440     0%  
- Number of Slice LUTs:                   90  out of   5720     1%  
-    Number used as Logic:                90  out of   5720     1%  
+ Number of Slice LUTs:                   85  out of   5720     1%  
+    Number used as Logic:                85  out of   5720     1%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:     90
-   Number with an unused Flip Flop:      56  out of     90    62%  
-   Number with an unused LUT:             0  out of     90     0%  
-   Number of fully used LUT-FF pairs:    34  out of     90    37%  
+ Number of LUT Flip Flop pairs used:     85
+   Number with an unused Flip Flop:      51  out of     85    60%  
+   Number with an unused LUT:             0  out of     85     0%  
+   Number of fully used LUT-FF pairs:    34  out of     85    40%  
    Number of unique control sets:        11
 
 IO Utilization: 
@@ -428,7 +428,7 @@ Clock Information:
 Clock Signal                                                                         | Clock buffer(FF name)  | Load  |
 -------------------------------------------------------------------------------------+------------------------+-------+
 clk                                                                                  | BUFGP                  | 22    |
-Mmux_sda_bit[7]_sda_bit[7]_MUX_184_o7213(Mmux_sda_bit[7]_sda_bit[7]_MUX_184_o72131:O)| NONE(*)(fix)           | 2     |
+Mmux_sda_bit[7]_sda_bit[7]_MUX_184_o7212(Mmux_sda_bit[7]_sda_bit[7]_MUX_184_o72121:O)| NONE(*)(fix)           | 2     |
 scl_rise                                                                             | NONE(scl_out)          | 1     |
 sw_ac                                                                                | NONE(sda_data_10)      | 1     |
 rst_sw_ac_MUX_59_o(Mmux_rst_sw_ac_MUX_59_o11:O)                                      | NONE(*)(lv_change)     | 1     |
@@ -475,7 +475,7 @@ Delay:               4.569ns (Levels of Logic = 3)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FDC:C->Q              4   0.525   1.234  counter_9 (counter_9)
-     LUT5:I0->O            2   0.254   0.954  GND_6_o_PWR_6_o_MUX_22_o<19>_SW0_SW0 (N10)
+     LUT5:I0->O            2   0.254   0.954  GND_6_o_PWR_6_o_MUX_22_o<19>_SW0_SW0 (N12)
      LUT6:I3->O           11   0.235   1.039  GND_6_o_PWR_6_o_MUX_22_o<19> (GND_6_o_PWR_6_o_MUX_22_o)
      LUT2:I1->O            1   0.254   0.000  Mcount_counter_eqn_01 (Mcount_counter_eqn_0)
      FDC:D                     0.074          counter_0
@@ -484,26 +484,26 @@ Delay:               4.569ns (Levels of Logic = 3)
                                        (29.4% logic, 70.6% route)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'Mmux_sda_bit[7]_sda_bit[7]_MUX_184_o7213'
-  Clock period: 2.318ns (frequency: 431.406MHz)
+Timing constraint: Default period analysis for Clock 'Mmux_sda_bit[7]_sda_bit[7]_MUX_184_o7212'
+  Clock period: 2.278ns (frequency: 438.982MHz)
   Total number of paths / destination ports: 1 / 1
 -------------------------------------------------------------------------
-Delay:               2.318ns (Levels of Logic = 1)
+Delay:               2.278ns (Levels of Logic = 1)
   Source:            fix (LATCH)
   Destination:       fix (LATCH)
-  Source Clock:      Mmux_sda_bit[7]_sda_bit[7]_MUX_184_o7213 falling
-  Destination Clock: Mmux_sda_bit[7]_sda_bit[7]_MUX_184_o7213 falling
+  Source Clock:      Mmux_sda_bit[7]_sda_bit[7]_MUX_184_o7212 falling
+  Destination Clock: Mmux_sda_bit[7]_sda_bit[7]_MUX_184_o7212 falling
 
   Data Path: fix to fix
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LDE:G->Q              3   0.581   0.765  fix (fix)
-     INV:I->O              1   0.255   0.681  fix_INV_9_o1_INV_0 (fix_INV_9_o)
+     LDE:G->Q              2   0.581   0.725  fix (fix)
+     INV:I->O              1   0.255   0.681  fix_INV_8_o1_INV_0 (fix_INV_8_o)
      LDE:D                     0.036          fix
     ----------------------------------------
-    Total                      2.318ns (0.872ns logic, 1.446ns route)
-                                       (37.6% logic, 62.4% route)
+    Total                      2.278ns (0.872ns logic, 1.406ns route)
+                                       (38.3% logic, 61.7% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'scl_rise'
@@ -521,7 +521,7 @@ Delay:               2.278ns (Levels of Logic = 1)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      LD:G->Q               2   0.581   0.725  scl_out (scl_out)
-     INV:I->O              1   0.255   0.681  scl_out_INV_6_o1_INV_0 (scl_out_INV_6_o)
+     INV:I->O              1   0.255   0.681  scl_out_INV_5_o1_INV_0 (scl_out_INV_5_o)
      LD:D                      0.036          scl_out
     ----------------------------------------
     Total                      2.278ns (0.872ns logic, 1.406ns route)
@@ -551,33 +551,34 @@ Delay:               1.597ns (Levels of Logic = 1)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'sw_ac_sda_bit[7]_MUX_215_o'
-  Clock period: 3.653ns (frequency: 273.748MHz)
+  Clock period: 3.445ns (frequency: 290.276MHz)
   Total number of paths / destination ports: 52 / 6
 -------------------------------------------------------------------------
-Delay:               3.653ns (Levels of Logic = 2)
-  Source:            sda_bit_5 (LATCH)
-  Destination:       sda_bit_5 (LATCH)
+Delay:               3.445ns (Levels of Logic = 3)
+  Source:            sda_bit_4 (LATCH)
+  Destination:       sda_bit_0 (LATCH)
   Source Clock:      sw_ac_sda_bit[7]_MUX_215_o falling
   Destination Clock: sw_ac_sda_bit[7]_MUX_215_o falling
 
-  Data Path: sda_bit_5 to sda_bit_5
+  Data Path: sda_bit_4 to sda_bit_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LD:G->Q              16   0.581   1.637  sda_bit_5 (sda_bit_5)
-     LUT6:I0->O            1   0.254   0.910  Mmux_sda_bit[7]_sda_bit[7]_MUX_184_o7141 (Mmux_sda_bit[7]_sda_bit[7]_MUX_184_o714)
-     LUT5:I2->O            1   0.235   0.000  Mmux_sda_bit[7]_sda_bit[7]_MUX_184_o7142 (sda_bit[7]_sda_bit[7]_MUX_250_o)
-     LD:D                      0.036          sda_bit_5
+     LD:G->Q              15   0.581   1.431  sda_bit_4 (sda_bit_4)
+     LUT4:I0->O            2   0.254   0.726  Mmux_sda_bit[7]_sda_bit[7]_MUX_184_o749111 (Mmux_sda_bit[7]_sda_bit[7]_MUX_184_o74911)
+     LUT6:I5->O            1   0.254   0.000  Mmux_sda_bit[7]_sda_bit[7]_MUX_184_o7494_F (N18)
+     MUXF7:I0->O           1   0.163   0.000  Mmux_sda_bit[7]_sda_bit[7]_MUX_184_o7494 (sda_bit[7]_sda_bit[7]_MUX_415_o)
+     LD:D                      0.036          sda_bit_0
     ----------------------------------------
-    Total                      3.653ns (1.106ns logic, 2.547ns route)
-                                       (30.3% logic, 69.7% route)
+    Total                      3.445ns (1.288ns logic, 2.157ns route)
+                                       (37.4% logic, 62.6% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'sw_ac_sda_bit[7]_MUX_504_o'
-  Clock period: 3.485ns (frequency: 286.944MHz)
+  Clock period: 2.119ns (frequency: 471.921MHz)
   Total number of paths / destination ports: 1 / 1
 -------------------------------------------------------------------------
-Delay:               3.485ns (Levels of Logic = 2)
+Delay:               2.119ns (Levels of Logic = 1)
   Source:            break (LATCH)
   Destination:       break (LATCH)
   Source Clock:      sw_ac_sda_bit[7]_MUX_504_o falling
@@ -588,19 +589,18 @@ Delay:               3.485ns (Levels of Logic = 2)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      LD:G->Q              11   0.581   1.267  break (break)
-     LUT3:I0->O            1   0.235   1.112  Mmux_sw_ac_sda_bit[7]_MUX_504_o62_SW0 (N4)
-     LUT6:I1->O            2   0.254   0.000  Mmux_sw_ac_sda_bit[7]_MUX_504_o62 (Mmux_sw_ac_sda_bit[7]_MUX_504_o62)
+     LUT3:I0->O            1   0.235   0.000  Mmux_sw_ac_sda_bit[7]_MUX_504_o621 (Mmux_sw_ac_sda_bit[7]_MUX_504_o62)
      LD:D                      0.036          break
     ----------------------------------------
-    Total                      3.485ns (1.106ns logic, 2.379ns route)
-                                       (31.7% logic, 68.3% route)
+    Total                      2.119ns (0.852ns logic, 1.267ns route)
+                                       (40.2% logic, 59.8% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'sw_ac_G'
-  Clock period: 2.102ns (frequency: 475.737MHz)
+  Clock period: 1.919ns (frequency: 521.105MHz)
   Total number of paths / destination ports: 1 / 1
 -------------------------------------------------------------------------
-Delay:               2.102ns (Levels of Logic = 1)
+Delay:               1.919ns (Levels of Logic = 1)
   Source:            sw_ac (LATCH)
   Destination:       sw_ac (LATCH)
   Source Clock:      sw_ac_G falling
@@ -610,12 +610,12 @@ Delay:               2.102ns (Levels of Logic = 1)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LD:G->Q              14   0.581   1.235  sw_ac (sw_ac)
+     LD:G->Q               8   0.581   1.052  sw_ac (sw_ac)
      LUT2:I0->O            1   0.250   0.000  sw_ac_D (sw_ac_D)
      LD:D                      0.036          sw_ac
     ----------------------------------------
-    Total                      2.102ns (0.867ns logic, 1.235ns route)
-                                       (41.2% logic, 58.8% route)
+    Total                      1.919ns (0.867ns logic, 1.052ns route)
+                                       (45.2% logic, 54.8% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
@@ -696,19 +696,19 @@ Offset:              2.459ns (Levels of Logic = 2)
                                        (65.8% logic, 34.2% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Mmux_sda_bit[7]_sda_bit[7]_MUX_184_o7213'
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Mmux_sda_bit[7]_sda_bit[7]_MUX_184_o7212'
   Total number of paths / destination ports: 1 / 1
 -------------------------------------------------------------------------
 Offset:              4.174ns (Levels of Logic = 1)
-  Source:            trigger (LATCH)
+  Source:            trg (LATCH)
   Destination:       trigger (PAD)
-  Source Clock:      Mmux_sda_bit[7]_sda_bit[7]_MUX_184_o7213 falling
+  Source Clock:      Mmux_sda_bit[7]_sda_bit[7]_MUX_184_o7212 falling
 
-  Data Path: trigger to trigger
+  Data Path: trg to trigger
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LDE:G->Q              1   0.581   0.681  trigger (trigger_OBUF)
+     LDE:G->Q              1   0.581   0.681  trg (trg)
      OBUF:I->O                 2.912          trigger_OBUF (trigger)
     ----------------------------------------
     Total                      4.174ns (3.493ns logic, 0.681ns route)
@@ -757,13 +757,13 @@ Offset:              4.174ns (Levels of Logic = 1)
 Cross Clock Domains Report:
 --------------------------
 
-Clock to Setup on destination clock Mmux_sda_bit[7]_sda_bit[7]_MUX_184_o7213
+Clock to Setup on destination clock Mmux_sda_bit[7]_sda_bit[7]_MUX_184_o7212
 ----------------------------------------+---------+---------+---------+---------+
                                         | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock                            |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ----------------------------------------+---------+---------+---------+---------+
-Mmux_sda_bit[7]_sda_bit[7]_MUX_184_o7213|         |         |    2.318|         |
-sw_ac_sda_bit[7]_MUX_215_o              |         |         |    3.455|         |
+Mmux_sda_bit[7]_sda_bit[7]_MUX_184_o7212|         |         |    2.278|         |
+sw_ac_sda_bit[7]_MUX_215_o              |         |         |    3.419|         |
 ----------------------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock clk
@@ -780,7 +780,7 @@ Clock to Setup on destination clock rst_sw_ac_MUX_59_o
 Source Clock      |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ------------------+---------+---------+---------+---------+
 rst_sw_ac_MUX_59_o|         |         |    1.597|         |
-sw_ac_G           |         |         |    2.102|         |
+sw_ac_G           |         |         |    1.919|         |
 ------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock scl_rise
@@ -797,8 +797,8 @@ Clock to Setup on destination clock sda_rise_sw_ac_OR_57_o
 Source Clock              |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 --------------------------+---------+---------+---------+---------+
 clk                       |         |         |    1.988|         |
-sw_ac                     |         |         |    3.360|         |
-sw_ac_sda_bit[7]_MUX_215_o|         |         |    3.828|         |
+sw_ac                     |         |         |    3.260|         |
+sw_ac_sda_bit[7]_MUX_215_o|         |         |    3.868|         |
 sw_ac_sda_bit[7]_MUX_504_o|         |         |    1.910|         |
 --------------------------+---------+---------+---------+---------+
 
@@ -815,7 +815,7 @@ Clock to Setup on destination clock sw_ac_G
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-sw_ac_G        |         |         |    2.102|         |
+sw_ac_G        |         |         |    1.919|         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock sw_ac_sda_bit[7]_MUX_215_o
@@ -823,11 +823,10 @@ Clock to Setup on destination clock sw_ac_sda_bit[7]_MUX_215_o
                                         | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock                            |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ----------------------------------------+---------+---------+---------+---------+
-Mmux_sda_bit[7]_sda_bit[7]_MUX_184_o7213|         |         |    2.677|         |
-clk                                     |         |         |    3.354|         |
-sw_ac_G                                 |         |         |    3.210|         |
-sw_ac_sda_bit[7]_MUX_215_o              |         |         |    3.653|         |
-sw_ac_sda_bit[7]_MUX_504_o              |         |         |    3.464|         |
+Mmux_sda_bit[7]_sda_bit[7]_MUX_184_o7212|         |         |    2.844|         |
+clk                                     |         |         |    3.609|         |
+sw_ac_sda_bit[7]_MUX_215_o              |         |         |    3.445|         |
+sw_ac_sda_bit[7]_MUX_504_o              |         |         |    3.739|         |
 ----------------------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock sw_ac_sda_bit[7]_MUX_504_o
@@ -835,16 +834,16 @@ Clock to Setup on destination clock sw_ac_sda_bit[7]_MUX_504_o
                           | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock              |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 --------------------------+---------+---------+---------+---------+
-clk                       |         |         |    3.250|         |
-sw_ac_sda_bit[7]_MUX_215_o|         |         |    3.468|         |
-sw_ac_sda_bit[7]_MUX_504_o|         |         |    3.485|         |
+clk                       |         |         |    1.988|         |
+sw_ac_sda_bit[7]_MUX_215_o|         |         |    3.501|         |
+sw_ac_sda_bit[7]_MUX_504_o|         |         |    2.119|         |
 --------------------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 5.85 secs
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.21 secs
  
 --> 
 

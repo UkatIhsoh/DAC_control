@@ -99,7 +99,7 @@ BEGIN
       -- insert stimulus here
 		wait for clk_period*10;
 		switch <= '1';
-		wait for clk_period;
+		wait for clk_period*10;
 		switch <= '0';     
 
 		wait;
