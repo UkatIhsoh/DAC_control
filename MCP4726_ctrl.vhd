@@ -127,7 +127,7 @@ begin
 	 
 			if sw_ac = '1' then
 				 sda_out <= '1';
-				sda_bit <= X"00";
+					sda_bit <= X"00";
 				if break <= '1' then 
 					break <= '0';					
 				end if;
@@ -233,11 +233,7 @@ begin
 					  sda_bit <= sda_bit +1;
 				 else
 					   sda_out <= '1';
-						if sw_ac = '1' then
-							if break <= '1' then 
-								break <= '0';					
-							end if;
-						end if;
+					   break <= '1'
 				end if;
         end if;
 
