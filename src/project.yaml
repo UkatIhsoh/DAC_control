@@ -1,0 +1,17 @@
+src_files:
+  - file_name: MCP4726_ctrl.vhd
+    language: vhdl
+    library: work
+    entity_names:
+      - MCP4726_ctrl
+
+
+  
+ucf_file: MCP4726_ctrl.ucf
+
+top_module: MCP4726_ctrl
+
+part:
+  device: xc6slx9
+  package: tqg144
+  speed: -2
